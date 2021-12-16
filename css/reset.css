@@ -1,0 +1,14 @@
+@charset "utf-8";
+/*===== Reset =====*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap');
+
+* { margin:0; padding:0; box-sizing:border-box; }
+body { 
+    font-family: 'Noto Sans KR', sans-serif; font-size:15px; /*rem을 안쓰는 이유: 가변크기라 정확하지 않아서 개발속도를 빠르게 하기 위해서*/color: #333;
+    background:#fff; /*배경을 꼭 넣어야 됨*/
+} 
+ul li { list-style:none; float:left; }
+a { display:block; color:#333; text-decoration:none; outline:0; }
+img { border:0; outline:0; }
+.clear { clear:both; }
